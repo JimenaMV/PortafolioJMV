@@ -22,7 +22,7 @@ h2 {
   letter-spacing: 25px;
   text-transform: uppercase;
   opacity: 0.15;
-  font-size: 30px;
+  font-size: 100px;
   text-align: end;
   /* position: absolute; */
 }
@@ -142,16 +142,17 @@ h2 {
 /* Bio styles */
 .bio {
   display: flex;
+  justify-content: column;
   /*  background-color: rgba(255, 255, 255, 0.1); */
   margin: 70px;
-  border-radius: 20px;
+
   /* border-color: rgba(255, 255, 255); */
 }
 
 .photo-bio {
   max-width: 40%;
   opacity: 80%;
-  width: 30%;
+  width: 45%;
 }
 .photo-bio img {
   display: flex;
@@ -185,7 +186,8 @@ h2 {
   display: flex;
   /* flex-direction: column; */
   flex-direction: row-reverse;
-  margin-bottom: 30px;
+  margin-bottom: 100px;
+  height: 200px;
 }
 
 .project-individual a p {
@@ -196,12 +198,12 @@ h2 {
   opacity: 0.6;
   text-align: end;
   line-height: 300px;
-  font-weight: 100;
+  font-weight: 300;
 }
 .project-individual a :hover {
   color: #984a5c;
   transform: scale(0.4);
-  font-weight: 200;
+  font-weight: 600;
 }
 
 .link-project {
