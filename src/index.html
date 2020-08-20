@@ -20,11 +20,11 @@
         <a href=""> .JimenaManzanares.</a>
       </div> -->
       <nav class="nav">
-        <a href="">Home</a>
-        <a href="">Bio</a>
-        <a href="">Proyectos</a>
-        <a href="">Arte</a>
-        <a href="">Contacto</a>
+        <!-- <a href="">Home</a> -->
+        <a href="#bio">Bio</a>
+        <a href="#projects">Proyectos</a>
+        <!-- <a href="#art">Arte</a> -->
+        <a href="#contact">Contacto</a>
       </nav>
     </header>
 
@@ -35,14 +35,13 @@
       <h2 id="name">Jimena Manzanares</h2>
     </section>
 
-    <section class="bio">
+    <section class="bio" id='bio'>
       <figure class="photo-bio">
         <img src="./assets/img/jimena-manzanares.jpg" alt="" />
       </figure>
       <div class="info-bio">
         <h2>Bio</h2>
         <h3>Jimena.Manzanares</h3>
-        <hr />
         <br />
         <p>
           Soy Bióloga, Artista Visual y actualmente Desarrolladora Front-End con
@@ -73,15 +72,15 @@
       </div>
     </section>
 
-    <section class="projects-container">
+    <section class="projects-container" id='projects'>
       <h2>Proyectos</h2>
       <div class="project-individual">
         <div class="link-project">
-          <a href=""><p>{VD}</p></a>
+          <a href="https://cdmx-009-data-lovers.vercel.app/"><p>{VD}</p></a>
         </div>
         <hr />
         <div class="info-projects">
-          <p class="project-tittle">J&&L VISUAL DATA</p>
+          <p class="project-tittle">VISUAL DATA</p>
           <p class="project-tools">| HTML | CSS | Javascript |</p>
 
           <p class="paragraph-project">
@@ -92,73 +91,50 @@
 
       <div class="project-individual">
         <div class="link-project">
-          <a href=""><p>{VD}</p></a>
+          <a href="https://microcuentos-ilustratos.vercel.app/"><p>{MI}</p></a>
         </div>
         <hr />
         <div class="info-projects">
-          <p class="project-tittle">J&&L VISUAL DATA</p>
-
-          <!-- <h3>J&&L VISUAL DATA</h3> -->
-
-          <p class="project-tools">| HTML | CSS | Javascript |</p>
+          <p class="project-tittle">MICROCUENTOS</p>
+          <p class="project-tittle">ILUSTRADOS</p>
+          <p class="project-tools">| HTML | CSS | Javascript | Firebase |</p>
 
           <p class="paragraph-project">
-            Visualización gráfica de una base de datos del Banco Mundial
+            red social colaborativa, que une a ilustradores y escritores
+            aficionados.
           </p>
         </div>
       </div>
-      <!--  <div class="project-individual">
-        <a href=""><p>{MI}</p></a>
-        <p>MICROCUENTOS ILUSTRADOS</p>
-        
-        <p>
-          | HTML | CSS | Javascript | Firebase |
-        </p>
 
-        <p>
-          Microcuentos ilustrados, es una red social colaborativa, que une a
-          ilustradores y escritores aficionados. Un escritor publica su cuento y
-          algún ilustrador interesado, lo toma para ilustrarlo. También pueden
-          subir ilustraciones independientes y no todos los cuentos tienen que
-          ilustrarse. **Ilustraciones tomadas de internet, crédito a quien
-          corresponda**
-        </p>
-      </div>
       <div class="project-individual">
-        <a href=""><p>{VQ}</p></a>
-        <p>VEGAN QUEEN</p>
-       
-        <br />
-        <p>React | CSS | Javascript | Firebase |</p>
-        <br />
-        <p>
-          Firebase Vegan queen es una aplicación para ipad pensada, diseñada y
-          desarrollada para un pequeño restaurante vegano con el objetivo tomar
-          de una manera más agil y práctica las comandas y mandarlas a cocina,
-          para mejorar el servicio en cuanto a tiempo de entrega.
-          Adicionalmente, permite tener una base de datos con los registros de
-          las ordenes, permitiendo un mejor manejo tanto de insumos como de las
-          cuentas y saber de forma rápida qué es lo que se vende más o menos.
-        </p>
-      </div>-->
+        <div class="link-project">
+          <a href="https://burger-queen.vercel.app/"><p>{VQ}</p></a>
+        </div>
+        <hr />
+        <div class="info-projects">
+          <p class="project-tittle">VEGAN QUEEN</p>
+          <p class="project-tools">| React | CSS | Javascript | Firebase |</p>
+
+          <p class="paragraph-project">
+            aplicación para ipad pensada, diseñada y desarrollada para un
+            pequeño restaurante vegano con el objetivo tomar de una manera más
+            agil y práctica las comandas
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id='contact'>
       <h2>Contacto</h2>
+      <class class="social">
+        <a href="https://www.linkedin.com/in/jimena-manzanares/"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/JimenaMV"><i class="fab fa-github-square"></i></a>
+        <a href="https://www.instagram.com/jimena.manzanares/"><i class="fab fa-instagram-square"></i></a>
+      </div>
     </section>
 
     <footer class="footer">
-      <div class="social">
-        <div>
-          <a href=""><i class="fab fa-linkedin"></i></a>
-        </div>
-        <div>
-          <a href=""><i class="fab fa-github-square"></i></a>
-        </div>
-        <div>
-          <a href=""><i class="fab fa-instagram-square"></i></a>
-        </div>
-      </div>
+      <p>Copyright &copy Jimena Manzanares</p>
     </footer>
     <script src="./app.js"></script>
   </body>
