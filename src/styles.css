@@ -392,6 +392,8 @@ h2 {
   .project-tools {
     font-size: 9px;
     text-align: center;
+    font-weight: 400;
+    letter-spacing: 3px;
   }
   .paragraph-project {
     font-size: 14px;
@@ -409,6 +411,7 @@ h2 {
   .paragraph-project {
     font-size: 11px;
     line-height: 20px;
+    font-weight: 300;
   }
 }
 
