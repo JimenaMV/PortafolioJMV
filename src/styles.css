@@ -351,4 +351,65 @@ h2 {
   }
 }
 
+@media all and (max-width: 480px) {
+  .info-bio h3 {
+    letter-spacing: 3px;
+    text-align: center;
+  }
+  #name {
+    font-size: 20px;
+    letter-spacing: 10px;
+  }
+
+  .bio {
+    margin: 30px;
+  }
+  h2 {
+    font-size: 25px;
+    letter-spacing: 5px;
+    text-align: center;
+  }
+  .info-bio p {
+    font-size: 11px;
+    line-height: 20px;
+  }
+
+  .projects-container {
+    margin: 30px;
+  }
+  .project-individual {
+    margin: 20px;
+  }
+
+  .project-individual a p {
+    font-size: 90px;
+  }
+
+  .project-tittle {
+    font-size: 20px;
+    letter-spacing: 3px;
+  }
+  .project-tools {
+    font-size: 9px;
+    text-align: center;
+  }
+  .paragraph-project {
+    font-size: 14px;
+    text-align: center;
+  }
+  .social {
+    padding: 0px;
+  }
+  .footer p {
+    font-size: 12px;
+  }
+  .link-project {
+    height: 180px;
+  }
+  .paragraph-project {
+    font-size: 11px;
+    line-height: 20px;
+  }
+}
+
 /* Extra small devices (phones, 600px and down) */
